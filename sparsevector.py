@@ -117,7 +117,7 @@ class Test(object):
         self._sparsity_test()
 
     def _id_test(self, d=SparseVector(x=1, y=2)):
-        e = self.__class__()  # e commonly represents the identity in a monoid
+        e = d.__class__()  # e commonly represents the identity in a monoid
         passed = d == d + e
         print('Passed {}+{}...{}'.format(d, e, passed))
 

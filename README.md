@@ -2,7 +2,7 @@
 
 The sparsevector.py module includes the SparseVector class, which
 implements basic algebraic operations on sparse representations of
-vector objects.
+vector objects. The class assumes **Python 3.3** or greater as it makes use of the `yield from` syntax.  
 
 ### Sparseness
 
