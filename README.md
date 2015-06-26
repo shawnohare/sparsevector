@@ -23,3 +23,7 @@ Despite its name, a SparseVector object can be any
 elements from a finite product of R-modules for some ring R.
 If M = M1 x M2 x ... x Mn for R-modules Mi, then a typical
 element might look something like {Mi1: mi1, ..., Mil: mil}.
+
+### Testing
+
+The test can be run by issuing `python -m test`.
